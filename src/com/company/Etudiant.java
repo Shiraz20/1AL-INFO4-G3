@@ -38,5 +38,10 @@ public class Etudiant {
         this.prenom = prenom;
     }
 
+    @Override
+    public String toString() {
+        return "Etudiant{" + "id=" + id + ", nom=" + nom + ", prenom=" + prenom + '}';
+    }
+
 }
 

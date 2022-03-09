@@ -1,6 +1,6 @@
 package com.company;
 
-public class Etudiant {
+public class Etudiant implements Comparable<Etudiant> {
     private int id;
     private String nom;
     private String prenom;
@@ -58,6 +58,11 @@ public class Etudiant {
 
         return this.id == other.id;
 
+    }
+
+    @Override
+    public int compareTo(Etudiant e) {
+        return this.id-e.id;
     }
 }
 

@@ -14,5 +14,5 @@ public interface University {
 
     public void trierEtudiantsParId();
 
-    public void trierEtudiantsParNom();
+
 }

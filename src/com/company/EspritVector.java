@@ -49,6 +49,15 @@ public class EspritVector implements University{
             System.out.println(e);
         }
 
+
+
+    }
+
+    @Override
+    public void trierEtudiantsParNom() {
+        Collections.sort(list, new CritereNom());
+
+        // list.sort(c);
     }
 
     @Override

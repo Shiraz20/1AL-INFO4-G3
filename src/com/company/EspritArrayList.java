@@ -53,6 +53,21 @@ public class EspritArrayList implements University {
         Collections.sort(list);
     }
 
+
+    @Override
+    public void trierEtudiantsParNom() {
+        Collections.sort(list, new CritereNom());
+    }
+
+    public void trierEtudiantsParPrenom() {
+        Collections.sort(list, new Comparator<Etudiant>() {
+            @Override
+            public int compare(Etudiant e1, Etudiant e2) {
+                return e1.getPrenom().compareTo(e2.getPrenom());
+            }
+        });
+    }
+
     public static void main(String[] args) {
         Etudiant e1 = new Etudiant(5 ,"Ben Jammaa","Khalil");
         Etudiant e2 = new Etudiant(4,"Souid","Abdo");
@@ -70,8 +85,11 @@ public class EspritArrayList implements University {
 //        list.displayEtudiants();
 //        System.out.println(list.rechercherEtudiant(e3));
         list.supprimerEtudiant(e3);
-        list.trierEtudiantsParId();
+       //  list.trierEtudiantsParId();
+       // list.trierEtudiantsParPrenom();
+        list.trierEtudiantsParNom();
         list.displayEtudiants();
+
 
 
     }

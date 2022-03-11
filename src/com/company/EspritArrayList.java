@@ -83,7 +83,7 @@ public class EspritArrayList implements University {
 
 
 //        list.displayEtudiants();
-//        System.out.println(list.rechercherEtudiant(e3));
+//         System.out.println(list.rechercherEtudiant(e3));
         list.supprimerEtudiant(e3);
        //  list.trierEtudiantsParId();
        // list.trierEtudiantsParPrenom();

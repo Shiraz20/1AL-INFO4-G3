@@ -3,13 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Etudiant e1 = new Etudiant(1, "etud2", "etud2");
 
 
 
-           // Etudiant e1 = new Etudiant(1, "etud2", "etud2");
-           // Etudiant e2 = new Etudiant(3, "etud1", "etud1");
-           // Etudiant e3 = new Etudiant(2, "etud3", "etud3");
+
+            Etudiant e1 = new Etudiant(1, "etud2", "etud2");
+            Etudiant e2 = new Etudiant(3, "etud1", "etud1");
+            Etudiant e3 = new Etudiant(2, "etud3", "etud3");
 
             EspritArrayList esprit = new EspritArrayList();
             esprit.ajouterEtudiant(e1);
@@ -20,7 +20,7 @@ public class Main {
 
             esprit.displayEtudiants();
 
-            EspritVector espVector = new EspritVector();
+          /*  EspritVector espVector = new EspritVector();
             Etudiant e5 = new Etudiant(1,"AABDOU","PRENOM");
             Etudiant e2 = new Etudiant(2,"KHALIL","BEN JEMAA");
             Etudiant e3 = new Etudiant(3,"OLFA","BEN AFIA");
@@ -35,6 +35,9 @@ public class Main {
             espVector.displayEtudiants();
 
 
+
+
+           */
 
     }
 

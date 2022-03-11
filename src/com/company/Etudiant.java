@@ -64,5 +64,21 @@ public class Etudiant implements Comparable<Etudiant> {
     public int compareTo(Etudiant e) {
         return this.id-e.id;
     }
+
+    public static void main(String[] args) {
+
+        Etudiant e1 = new Etudiant(1, "Besrour", "Shiraz");
+        Etudiant e2 = new Etudiant(2, "Ben Jammaa", "Khalil");
+        Etudiant e3 = new Etudiant(3, "Ben Afia", "Olfa");
+        Etudiant e4 = new Etudiant(4, "Souid", "Abdou");
+
+        e1.toString();
+        e2.toString();
+    }
+
+
+
+
+
 }
 

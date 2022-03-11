@@ -21,7 +21,7 @@ public class Main {
             esprit.displayEtudiants();
 
             EspritVector espVector = new EspritVector();
-            Etudiant e1 = new Etudiant(1,"AABDOU","PRENOM");
+            Etudiant e5 = new Etudiant(1,"AABDOU","PRENOM");
             Etudiant e2 = new Etudiant(2,"KHALIL","BEN JEMAA");
             Etudiant e3 = new Etudiant(3,"OLFA","BEN AFIA");
             Etudiant e4 = new Etudiant(4,"SHIRAZ","BESROUR");
